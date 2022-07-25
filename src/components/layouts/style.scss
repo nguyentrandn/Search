@@ -1,0 +1,19 @@
+.button{
+    width: 20%;
+    background-color:#0de9df;
+    color: #000;
+    border-radius: 5px;
+    user-select: none;
+}
+.input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.disable{
+    opacity: 0.5;
+    pointer-events: none;
+}

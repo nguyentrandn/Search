@@ -5,7 +5,7 @@ import Videos from "../pages/Videos"
 
 //
 const publicRoutes =[ 
-    { path: '/repoSearch', component: Home},
+    { path: '/', component: Home},
     { path: '/news', component: News},
     { path: '/videos', component: Videos},
 

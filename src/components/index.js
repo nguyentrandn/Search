@@ -16,8 +16,9 @@ function Layout({children}) {
 
     return ( 
         <div className="">
-            <Navbar darkTheme={theme.darkTheme} setDarkTheme={theme.setDarkTheme} className="navbar-stand"/>
-            <div className="w-full p-5">
+            <Navbar darkTheme={theme.darkTheme} setDarkTheme={theme.setDarkTheme}/>
+            <div className="w-full p-5" style={{minHeight: "90vh"}}>
+                
                 {isLoading ? <Loading/> :  children}
             </div>
             <Footer/>

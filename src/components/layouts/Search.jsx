@@ -20,9 +20,7 @@ function Search() {
   const handleSearch = (e) => {
     let value = e.target.value;
     setSearchTerm(value)
-    console.log(searchTerm);
   };
-  console.log(searchTerm);
 
   const ref = useRef()
 

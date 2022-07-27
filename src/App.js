@@ -9,7 +9,7 @@ export const ThemeContext = createContext();
 function App() {
   const [darkTheme, setDarkTheme] = useState(() => {
     const storageTheme = JSON.parse(localStorage.getItem('theme')) // get giá trị và chuyển sang kiểu Js(.parse)
-    return storageTheme ??  false 
+    return storageTheme ??  true 
   });
 
   // lưu Theme vào localStorage 

@@ -6,7 +6,7 @@ function Navbar({ darkTheme, setDarkTheme }) {
 
 
   return (
-    <div className="p-5 pb-0 flex flex-wrap sm:justify-between justify-center items-center border-b dark:border-gray-700 border-gray-200">
+    <div className="p-5 h-20 bg-gray-200 flex flex-wrap sm:justify-between justify-center items-center border-b dark:border-gray-700 border-gray-200 sticky top-0 dark:bg-slate-900">
       <div className="flex  justify-between items-center space-x-5 w-screen ">
         <div  className="flex  justify-between">
           <Link to="/">
@@ -17,7 +17,7 @@ function Navbar({ darkTheme, setDarkTheme }) {
           <Search/>
         </div>
         <div className="flex">
-          <Link to="/"><p className="dark:text-white mx-3">All</p> </Link>
+          <Link to="/search"><p className="dark:text-white mx-3">All</p> </Link>
           <p className="dark:text-white">|</p>
           <Link to="/videos"><p className="dark:text-white mx-3">Videos</p> </Link>
         </div>
